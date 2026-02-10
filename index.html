@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS 2026 | Sommet Premium</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">NEXUS<span>26</span></div>
+    <ul class="nav-links">
+        <li><a href="#event">Concept</a></li>
+        <li><a href="#program">Programme</a></li>
+        <li><a href="#venue">Lieu</a></li>
+        <li><a href="#register" class="nav-btn">S'inscrire</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <div class="hero-content">
+        <span class="badge">Innovation & Future Tech</span>
+        <h1>CONCEVOIR<br><span class="glow-text">L'INVISIBLE</span></h1>
+        <p class="hero-desc">
+            Conférence immersive sur les interfaces neuronales et l’intelligence artificielle avancée.
+        </p>
+        <div class="hero-actions">
+            <a href="#register" class="btn btn-primary">Réserver un pass</a>
+            <a href="#event" class="btn btn-outline">Explorer</a>
+        </div>
+    </div>
+</header>
+
+<div class="limited-access">
+    <span>⚠ Accès limité à 500 participants • Sélection algorithmique</span>
+</div>
+
+<section id="event" class="container reveal">
+    <h2 class="section-title">Le Concept</h2>
+    <div class="concept-grid">
+        <div class="concept-card">
+            <span class="card-num">01</span>
+            <h3>Convergence</h3>
+            <p>Rencontrez les leaders mondiaux de l’IA, du cyber et des technologies émergentes.</p>
+        </div>
+
+        <div class="concept-card">
+            <span class="card-num">02</span>
+            <h3>Immersion</h3>
+            <p>Expériences sensorielles, projections avancées et démonstrations live.</p>
+        </div>
+
+        <div class="concept-card highlight">
+            <span class="card-num">03</span>
+            <h3>Exclusivité</h3>
+            <p>Accès réservé à une élite technologique sélectionnée par algorithme.</p>
+        </div>
+    </div>
+</section>
+
+<section id="program" class="container reveal">
+    <h2 class="section-title">Programme</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="time">10:00</div>
+            <div class="content">
+                <span class="tag"><i data-lucide="brain"></i> IA</span>
+                <h3>Ouverture Holographique</h3>
+                <p>Keynote par l’entité synthétique AURA.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="time">13:00</div>
+            <div class="content">
+                <span class="tag"><i data-lucide="cpu"></i> Tech</span>
+                <h3>Interfaces Neuronales</h3>
+                <p>Démonstration cerveau ↔ machine en temps réel.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="time">16:00</div>
+            <div class="content">
+                <span class="tag"><i data-lucide="users"></i> Talk</span>
+                <h3>Table ronde</h3>
+                <p>Le futur de l’humanité augmentée.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="time">18:30</div>
+            <div class="content">
+                <span class="tag"><i data-lucide="lock"></i> Secret</span>
+                <h3>Clôture confidentielle</h3>
+                <p>Présentation du projet NEXUS-Ω.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="venue" class="container reveal">
+    <h2 class="section-title">Le Lieu</h2>
+    <h3>The Cyber Cube – Paris</h3>
+    <p>Coordonnées : 48.866816, 2.257484</p>
+
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps?q=48.866816,2.257484&z=15&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+<section id="register" class="container reveal">
+    <div class="register-wrapper">
+        <h2 class="section-title">Inscription</h2>
+        <form id="nexus-form">
+            <div class="form-group">
+                <input type="text" placeholder="Nom complet" required>
+                <input type="email" placeholder="Email professionnel" required>
+            </div>
+            <select required>
+                <option disabled selected>Choisir un pass</option>
+                <option>Pass Cyber – 120€</option>
+                <option>Pass Neural – 250</option>
+            </select>
+            <button class="btn-submit">Initialiser l’accès</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 NEXUS SOMMET</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
